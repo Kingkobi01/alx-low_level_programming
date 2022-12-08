@@ -3,6 +3,6 @@
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
-	fprintf(stderr, "%d\n", errno);
+	putchar(errno);
 	return (0);
 }
