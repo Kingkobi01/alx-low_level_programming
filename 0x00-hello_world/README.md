@@ -19,8 +19,13 @@ i
 	This program prints a sentence followed by a newline using the puts() function.
 
 6. [Hello, printf](./5-printf.c)
-	THis program prints a sentence followed by a newline using the printf() function.
+	This program prints a sentence followed by a newline using the printf() function.
 
-7. []()
+7. [Size is not grandeur, and territory does not make a nation](./6-size.c)   
+	This program prints the size of various types on the computer it is compiled and run on.
 
-8. []()
+8. [Intel](./100-intel)
+	This script generates the assembly code in the intel syntax of a C code and save it in an output file.
+
+9. [UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity](./101-quote.c)
+	This program prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19` followed by a new line to the standard error.
