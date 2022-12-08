@@ -1,4 +1,5 @@
 # 0x00-hello_world
+i
 
 1. [Preprocessor](./0-preprocessor)   
 	`gcc -E filename` - Removes all Comments from the source code, adds all the header files and replace all macro names with macro definitions.
@@ -15,9 +16,10 @@
 `gcc filename`  Does the Preprocessing, Compiling, Assembly and Linking together and creates an executable file called `a.out`
 
 5. [Hello, puts](./4-puts.c)   
-	This program prints a sentence followed by a newline.
+	This program prints a sentence followed by a newline using the puts() function.
 
-6. []()
+6. [Hello, printf](./5-printf.c)
+	THis program prints a sentence followed by a newline using the printf() function.
 
 7. []()
 
