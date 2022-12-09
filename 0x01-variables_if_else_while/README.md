@@ -1,7 +1,7 @@
 # 0x01. C - Variables, if, else, while
 
 0. [Positive anything is better than negative nothing](./0-positive_or_negative.c)   
-	This program will assign a random number to the variable n each time it is executed.
+This program will assign a random number to the variable n each time it is executed.
 * The variable `n` will store a different value every time you will run this program
 * The output of the program should be:
     * The number, followed by
@@ -11,7 +11,7 @@
     * followed by a new line
 
 1. [The last digit](./1-last_digit.c)   
-	This program will assign a random number to the variable n each time it is executed.
+This program will assign a random number to the variable n each time it is executed.
 * The variable `n` will store a different value every time you run this program
 * The output of the program should be:
 
@@ -24,4 +24,6 @@
     * followed by a new line
 
 
+2. [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.c)
+This program prints the alphabet in lowercase, followed by a new line.
 	 
