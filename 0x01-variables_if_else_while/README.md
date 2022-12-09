@@ -30,3 +30,5 @@ This program prints the alphabet in lowercase, followed by a new line.
 3. [alphABET] (./3-print_alphabets.c)    
 This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
+4. [When I was having that alphabet soup, I never thought that it would pay off](./4-print_alphabt.c)   
+This program prints the alphabet in lowercase, followed by a new line except `e` and `q`.
