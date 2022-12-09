@@ -12,8 +12,8 @@ int main(void)
 	int i;
 
 	for (i = 0; ((alphabet[i] != '\0')
-				&& (alphabet[i] != 'e')
-				&& (alphabet[i] != 'q')); i++)
+				&& (alphabet[i] != 'E')
+				&& (alphabet[i] != 'Q')); i++)
 	{
 		putchar(tolower(alphabet[i]));
 	}
