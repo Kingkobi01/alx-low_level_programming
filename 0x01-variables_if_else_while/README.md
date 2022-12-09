@@ -36,3 +36,19 @@ This program prints the alphabet in lowercase, followed by a new line except `e`
 5. [Numbers](./5-print_numbers.c)   
 This program prints all single digit numbers of base 10 starting from `0`, followed by a new line.
 
+6. [Numberz](./6-print_numberz.c)   
+This program prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+7. []()
+
+8. []()
+
+9. []()
+
+10. []()
+
+11. []()
+
+12. []()
+
+13. []()
