@@ -17,7 +17,7 @@ int main(void)
 	{
 		for (secondDigit = 0; secondDigit < 10; secondDigit++)
 		{
-			if (firstDigit >= secondDigit )
+			if (firstDigit <= secondDigit)
 			{
 				putchar(firstDigit + '0');
 				putchar(secondDigit + '0');
