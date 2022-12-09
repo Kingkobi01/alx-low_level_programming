@@ -24,6 +24,9 @@ This program will assign a random number to the variable n each time it is execu
     * followed by a new line
 
 
-2. [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.c)
+2. [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.c)   
 This program prints the alphabet in lowercase, followed by a new line.
-	 
+	
+3. [alphABET] (./3-print_alphabets.c)    
+This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
