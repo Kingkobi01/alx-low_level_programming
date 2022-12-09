@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Print all possible
+ * main - Print all possible
  *	combinations of two
  *	two-digit numbers
  *	eg 00 01, 00 02, ..., 98 99
@@ -24,8 +24,7 @@ int main(void)
 			{
 				for (lastDigit = 0; lastDigit < 10; lastDigit++)
 				{
-					if ((firstDigit < secondDigit)
-							&& (secondDigit < thirdDigit))
+					if (secondDigit <= thirdDigit)
 					{
 						putchar(firstDigit + '0');
 						putchar(secondDigit + '0');
@@ -38,10 +37,8 @@ int main(void)
 						continue;
 					}
 
-					if (!((firstDigit == 9) &&
-							(secondDigit == 8) &&
-							(thirdDigit == 9) &&
-							(lastDigit == 9)))
+					if (!((firstDigit == 9) && (secondDigit == 8) && (thirdDigit == 9)
+								&& (lastDigit == 9)))
 					{
 						putchar(',');
 						putchar(' ');
