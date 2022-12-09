@@ -1,30 +1,24 @@
 #include <stdio.h>
 #include <ctype.h>
-
 /**
- * main - Prints the alphabets
- * in lowercase, and then
- * in uppercase,
- * followed by a new line.
+ * main - Prints the alphabets in lower case
  *
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-	char *alphabet = "abcdefghijklmnopqrstuvwxyz";
+	char *alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; alphabet[i] != '\0'; i++)
 	{
 		putchar(tolower(alphabet[i]));
-		alphabet[i] = tolower(alphabet[i]);
 	}
-
-	for (i = 0 ; alphabet[i] != '\0'; i++)
+	
+	for (i=0; alphabet[i] != '\0'; i++)
 	{
 		putchar(toupper(alphabet[i]));
-		alphabet[i] = toupper(alphabet[i]);
 	}
 
 	putchar('\n');
