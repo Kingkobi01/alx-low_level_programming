@@ -26,7 +26,7 @@ int main(void)
 			{
 				continue;
 			}
-			if (!((firstDigit == 9) && (secondDigit == 9)))
+			if (!((firstDigit == 8) && (secondDigit == 9)))
 			{
 				putchar(',');
 				putchar(' ');
