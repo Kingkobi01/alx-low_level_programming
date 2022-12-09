@@ -15,8 +15,7 @@ int main(void)
 	{
 		putchar(tolower(alphabet[i]));
 	}
-	
-	for (i=0; alphabet[i] != '\0'; i++)
+	for (i = 0; alphabet[i] != '\0'; i++)
 	{
 		putchar(toupper(alphabet[i]));
 	}
