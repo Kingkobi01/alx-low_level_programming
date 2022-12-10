@@ -11,11 +11,16 @@ int main(void)
 	char *alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; ((alphabet[i] != '\0')
-				&& (alphabet[i] != 'E')
-				&& (alphabet[i] != 'Q')); i++)
+	for (i = 0; (alphabet[i] != '\0'); i++)
 	{
+		if (((alphabet[i] != 'E') && (alphabet[i] != 'Q')))
+		{
 		putchar(tolower(alphabet[i]));
+		}
+		else
+		{
+			continue;
+		}
 	}
 
 	putchar('\n');
