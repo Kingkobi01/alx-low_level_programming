@@ -1,36 +1,32 @@
 #include <stdio.h>
-
 /**
- * main - Print all possible
- *	combinations of two
- *	two-digit numbers
- *	eg 00 01, 00 02, ..., 98 99
- *
- * Return: 0 (Success)
- */
-
+*main - Prints all combinations of two two digits with,
+* and space followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	int firstDigit;
-	int secondDigit;
+	int digit1;
+	int digit2;
 
-	for (firstDigit = 0; firstDigit <= 98; firstDigit++)
+	for (digit1 = 0; digit1 <= 98; digit1++)
 	{
-		for (secondDigit = firstDigit + 1; secondDigit < 99; secondDigit++)
+		for (digit2 = digit1 + 1; digit2 <= 99; digit2++)
 		{
-			putchar((firstDigit / 10) + '0');
-			putchar((firstDigit % 10) + '0');
+			putchar((digit1 / 10) + '0');
+			putchar((digit1 % 10) + '0');
 			putchar(32);
-			putchar((secondDigit / 10) + '0');
-			putchar((secondDigit % 10) + '0');
+			putchar((digit2 / 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-			if (firstDigit / 10 != 9 || firstDigit % 10 != 8)
+			if (digit1 / 10 != 9 || digit1 % 10 != 8)
 			{
 				putchar(44);
 				putchar(32);
 			}
 		}
 	}
-		putchar('\n');
+	putchar(10);
 	return (0);
 }
