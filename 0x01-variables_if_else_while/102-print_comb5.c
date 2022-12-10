@@ -13,40 +13,24 @@ int main(void)
 {
 	int firstDigit;
 	int secondDigit;
-	int thirdDigit;
-	int lastDigit;
 
-	for (firstDigit = 0; firstDigit < 10; firstDigit++)
+	for (firstDigit = 0; firstDigit <= 98; firstDigit++)
 	{
-		for (secondDigit = 0; secondDigit < 10; secondDigit++)
+		for (secondDigit = firstDigit + 1; secondDigit < 99; secondDigit++)
 		{
-			for (thirdDigit = 0; thirdDigit < 10; thirdDigit++)
-			{
-				for (lastDigit = 0; lastDigit < 10; lastDigit++)
-				{
-					if (secondDigit <= thirdDigit)
-					{
-						putchar(firstDigit + '0');
-						putchar(secondDigit + '0');
-						putchar(' ');
-						putchar(thirdDigit + '0');
-						putchar(lastDigit + '0');
-					}
-					else
-					{
-						continue;
-					}
+			putchar((firstDigit / 10) + '0');
+			putchar((firstDigit % 10) + '0');
+			putchar(32);
+			putchar((secondDigit / 10) + '0');
+			putchar((secondDigit % 10) + '0');
 
-					if (!((firstDigit == 9) && (secondDigit == 8) && (thirdDigit == 9)
-								&& (lastDigit == 9)))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+			if (firstDigit / 10 != 9 || firstDigit % 10 != 8)
+			{
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
-	putchar('\n');
+		putchar('\n');
 	return (0);
 }
