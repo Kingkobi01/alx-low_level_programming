@@ -4,7 +4,7 @@ This program prints `_putchar`, followed by a new line.
 
 
 1. [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./1-alphabet.c)   
-This program prints the alphabet, in lowercase, followed by a new line.
+This program has a function that prints the alphabet, in lowercase, followed by a new line.
 	* Prototype: `void print_alphabet(void);`
 	
 2. [10 x alphabet](./2-print_alphabet_x10.c)   
@@ -19,4 +19,10 @@ This program has a function that checks for lowercase character.
     * Returns `0` otherwise
 
 
+4. [isalpha](./4-isalpha.c)   
+This program contains a function that checks for alphabetic character.
+
+    * Prototype: int _isalpha(int c);
+    * Returns 1 if c is a letter, lowercase or uppercase
+    * Returns 0 otherwise
 
