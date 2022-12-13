@@ -1,41 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 #include <ctype.h>
 
 /**
- * main - Entry point
+ * _islower - Checks for
+ * a lowercase character.
  *
- * Return: 0 (Success)
- * @c: character putchar
+ *@c : char  parameter
+ * Return: int, 1 if c is lowercase
+ * or 0 if c is not lowercase;
  */
 
-int _islower(int c);
-int r;
 
-int main(void)
-{
-	r = _islower('H');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
-}
 
-/**
- * _islower - CHecks for lowercase
- * character.
- *
- *@c: character parameter
- *
- * Return: 1 (True) 0 (False)
- */
 
 int _islower(int c)
 {
-	if (islower(c + '0'))
+	if (islower(c) == 0)
 	{
-		return (1);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 }

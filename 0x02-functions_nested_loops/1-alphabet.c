@@ -1,25 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - prints the alphabet,
+ * in lowercase, followed by a new line.
  *
- * Description - Print the alphabet,
- * in lowercase,
- * followed by a new line.
- * Return: 0 (Success)
+ * Return: void 
  */
-
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
-	char *alphabet = "abcdefghijklmnopqrstuvwxyz";
-	printf("%s\n", alphabet);
-}
+	char *alphabets = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
+	for (i = 0; alphabets[i] != '\0'; i++)
+	{
+		_putchar(alphabets[i]);
+	}
+	_putchar('\n');
+}
