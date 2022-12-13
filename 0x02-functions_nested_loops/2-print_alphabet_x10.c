@@ -1,20 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- *
- * Return: 0 (Success)
- */
-
-void print_alphabet_x10(void);
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-
 
 /**
  * print_alphabet_x10 - Print 10 times

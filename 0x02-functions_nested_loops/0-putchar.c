@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -7,8 +7,16 @@
  * Return: 0 (Success)
  */
 
+
 int main(void)
 {
-	printf("_putchar\n");
+	int i;
+	char *aWord = "_putchar";
+
+	for (i = 0; aWord[i] != '\0'; i++)
+	{
+		_putchar(aWord[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
