@@ -14,7 +14,7 @@ This program prints 10 times the alphabet, in lowercase, followed by a new line.
 3. [islower](./3-islower.c)   
 This program has a function that checks for lowercase character.   
 
-    * Prototype: int _islower(int c);
+    * Prototype: `int _islower(int c)`;
     * Returns `1` if `c` is lowercase
     * Returns `0` otherwise
 
@@ -22,23 +22,61 @@ This program has a function that checks for lowercase character.
 4. [isalpha](./4-isalpha.c)   
 This program contains a function that checks for alphabetic character.
 
-    * Prototype: int _isalpha(int c);
-    * Returns 1 if c is a letter, lowercase or uppercase
-    * Returns 0 otherwise
+    * Prototype: `int _isalpha(int c)`;
+    * Returns `1` if `c` is a letter, lowercase or uppercase
+    * Returns `0` otherwise
 
 5. [Sign](5-sign.c)   
 This program contains a function that prints the sign of a number.
 
-   * Prototype: int print_sign(int n);
-   * Returns 1 and prints + if n is greater than zero
-   * Returns 0 and prints 0 if n is zero
-   * Returns -1 and prints - if n is less than zero
+   * Prototype: `int print_sign(int n)`;
+   * Returns `1` and prints `+` if `n` is greater than zero
+   * Returns `0` and prints `0` if `n` is zero
+   * Returns `-1` and prints `-` if `n` is less than zero
 
 
 6. [There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](./6-abs.c)   
 This program contains a function that computes the absolute value of an integer.
 
-    * Prototype: int _abs(int);
+    * Prototype: `int _abs(int)`;
+
+7. [There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c)   
+
+This program contains a function that prints the last digit of a number.
+
+    * Prototype:`int print_last_digit(int);`
+    * Returns the value of the last digit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
