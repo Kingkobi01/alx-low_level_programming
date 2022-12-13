@@ -26,3 +26,23 @@ This program contains a function that checks for alphabetic character.
     * Returns 1 if c is a letter, lowercase or uppercase
     * Returns 0 otherwise
 
+5. [Sign](5-sign.c)   
+This program contains a function that prints the sign of a number.
+
+   * Prototype: int print_sign(int n);
+   * Returns 1 and prints + if n is greater than zero
+   * Returns 0 and prints 0 if n is zero
+   * Returns -1 and prints - if n is less than zero
+
+
+6. [There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](./6-abs.c)   
+This program contains a function that computes the absolute value of an integer.
+
+    * Prototype: int _abs(int);
+
+
+
+
+
+
+
