@@ -94,7 +94,8 @@ This program has a function that prints the n times table, starting with 0.
     * If `n` is greater than `15` or less than `0` the function should not print anything.
 
 
-
+13. [Nature made the natural numbers; All else is the work of women](./101-natural.c)   
+This is a program that computes and prints the sum of all the multiples of `3` or `5` below `1024` (excluded), followed by a new line.
 
 
 
