@@ -70,6 +70,10 @@ in this format
 ```
 
 
+10. [a + b](./10-add.c)   
+THis program has a function that adds two integers and returns the result.
+
+   * Prototype: `int add(int, int);`
 
 
 
