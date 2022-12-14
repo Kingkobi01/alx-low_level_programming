@@ -8,19 +8,19 @@
 int main(void)
 {
 	int i = 0;
-	long j = 1, k = 2;
+	long j = 1, k = 2, sum = 0;
 
 	while (i < 50)
 	{
 		if (i == 1)
-			printf(", %ld", k);
+			 sum += k;
 		else
 		{
 			k += j;
 			j = k - j;
 			if ((k <= 4000000) && (k % 2 == 0))
 			{
-			printf(", %ld", k);
+			sum += k;
 			}
 		}
 
