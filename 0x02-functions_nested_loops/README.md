@@ -47,6 +47,10 @@ This program contains a function that prints the last digit of a number.
    * Returns the value of the last digit
 
 
+8. [I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24_hours.c)   
+This program contains a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
+    * Prototype: `void jack_bauer(void);`
 
 
 
@@ -54,15 +58,7 @@ This program contains a function that prints the last digit of a number.
 
 
 
-
-
-
-
-
-
-
-
-
+ 
 
 
 
