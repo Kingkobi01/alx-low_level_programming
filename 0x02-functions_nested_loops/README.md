@@ -71,13 +71,28 @@ in this format
 
 
 10. [a + b](./10-add.c)   
-THis program has a function that adds two integers and returns the result.
+This program has a function that adds two integers and returns the result.
 
    * Prototype: `int add(int, int);`
 
 
 
- 
+11. [98 Battery Street, the OG](./11-print_to_98.c)   
+This program has a function thar prints all natural numbers from `n` t0 `98`, followed by a new line.
+
+	* Prototype: `void print_to_98(int n);`
+	* Numbers must be separated by a comma, followed by a space
+	* Numbers should be printed in order
+	* The first printed number should be the number passed to your function
+	* The last printed number should be `98`
+
+12. [The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself](./100-times_table.c)    
+
+This program has a function that prints the n times table, starting with 0.
+
+    * Prototype: `void print_times_table(int n);`
+    * If `n` is greater than `15` or less than `0` the function should not print anything.
+
 
 
 
