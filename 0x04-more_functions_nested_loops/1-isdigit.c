@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * _isupper - Entry point
+ * _isdigit - Entry point
  *
- * Description: checks if c is a digit 
+ * Description: checks if c is a digit
  *
  * @c: char param
  *
