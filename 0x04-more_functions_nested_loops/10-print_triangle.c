@@ -17,11 +17,12 @@ void print_triangle(int size)
 	int j;
 	int k;
 
-	if (size > 0 )
+	if (size > 0)
 	{
 		for (i = 1; i <= size; i++)
-		{		
+		{
 			int complement = size - i;
+
 			for (j = 0; j < complement; j++)
 			{
 				_putchar(32);
