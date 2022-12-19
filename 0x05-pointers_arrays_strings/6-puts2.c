@@ -10,7 +10,7 @@
 
 void puts2(char *str)
 {
-	int i =0;
+	unsigned long int i =0;
 	while(i < strlen(str))
 	{
 		putchar(str[i]);
