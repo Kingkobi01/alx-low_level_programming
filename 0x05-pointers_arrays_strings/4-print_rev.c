@@ -13,10 +13,11 @@
 void print_rev(char *s)
 {
 	char *rev;
-
-	for (int i = strlen(s); *(s + i) >= 0; i--)
+	int i;
+	while (i >= strlen(s))
 	{
 		strcat(rev, s+i );
+		i--;
 	}
 
 	printf("%s\n",rev);
