@@ -11,7 +11,6 @@
 
 void print_rev(char *s)
 {
-	char *rev ="";
 	int i = 1;
 
 	while (i <= strlen(s))
@@ -20,5 +19,5 @@ void print_rev(char *s)
 		i++;
 	}
 
-	printf("%s\n",rev);
+	printf("\n");
 }
