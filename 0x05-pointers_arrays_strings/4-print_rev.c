@@ -12,9 +12,9 @@
 
 void print_rev(char *s)
 {
-	char *rev;
+	char *rev ="";
 	int i;
-	while (i >= strlen(s))
+	while (i >= strlen(*s))
 	{
 		strcat(rev, s+i );
 		i--;
