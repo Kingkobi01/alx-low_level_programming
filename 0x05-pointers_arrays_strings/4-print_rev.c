@@ -7,7 +7,7 @@
  * @s: char param to be reversed
  *
  * Return: void
- */ 
+ */
 
 void print_rev(char *s)
 {
