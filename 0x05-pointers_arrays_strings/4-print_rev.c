@@ -14,7 +14,7 @@ void print_rev(char *s)
 {
 	char *rev;
 
-	for (int i = strlen(s); (s + i) >= 0; i--)
+	for (int i = strlen(s); *(s + i) >= 0; i--)
 	{
 		strcat(rev, s+i );
 	}
