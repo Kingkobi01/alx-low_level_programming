@@ -11,7 +11,8 @@
 void puts2(char *str)
 {
 	unsigned long int i = 0;
-	while(i < strlen(str))
+
+	while (i < strlen(str))
 	{
 		putchar(str[i]);
 		i += 2;
