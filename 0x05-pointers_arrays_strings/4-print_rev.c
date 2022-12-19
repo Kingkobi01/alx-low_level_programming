@@ -11,7 +11,7 @@
 
 void print_rev(char *s)
 {
-	long unsigned int i = 1;
+	unsigned long int i = 1;
 
 	while (i <= strlen(s))
 	{
