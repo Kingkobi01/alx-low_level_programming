@@ -5,7 +5,7 @@
 *       to an int as parameter and
 *       updates the value it points
 *       to to 98.
-* @n : Pointer of the int param 
+* @n : Pointer of the int param
 *
 * Return : void
 */
