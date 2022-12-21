@@ -8,12 +8,12 @@
  *				and then adds a terminating null byte
  * @dest: the variable to be appended to
  * @src: the variable to me appended from.
- * return: char *
+ * Return: char *
  */
 
 char *_strcat(char *dest, char *src)
 {
 	strcat(dest, src);
 
-	return dest;
+	return (dest);
 }
