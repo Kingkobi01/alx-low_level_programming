@@ -8,7 +8,7 @@
  * @n : Size of the sring that can be copied.
  *
  *
- * return: char* ;a copy of src
+ * Return: char* ;a copy of src
  */
 
 
