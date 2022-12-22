@@ -9,19 +9,20 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = n - 1;
+	int *p, i, aux, k;
 
-	while (i >= 0)
+	p = a;
+
+	for (i = 1; i < n; i++)
 	{
-		if (i > 0)
-		{
-			printf("%d, ", a[i]);
-		}
-		else
-		{
-			printf("%d", a[i]);
-		}
-		i--;
+		p++;
 	}
-	printf("\n");
+
+	for (k = 0; k < i / 2; k++)
+	{
+		aux = a[k];
+		a[k] = *p;
+		*p = aux;
+		p--;
+	}
 }
