@@ -27,7 +27,7 @@ int _atoi(char *s)
 				result = -1 * (s[i] - '0');
 
 			if ((s[i] > 58) || (s[i] < 47))
-				continue;
+				break;
 		}
 	}
 	if (sign < 0)
