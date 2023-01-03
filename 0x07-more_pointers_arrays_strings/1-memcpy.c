@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
  * _memcpy - copies memory area.
  * @dest : Where the duplicate is goint to

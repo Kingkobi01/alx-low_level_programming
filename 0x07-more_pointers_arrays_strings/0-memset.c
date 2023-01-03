@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
  * _memset - fills memory with a constant byte.
  * @s : Part of memory to me filled.
