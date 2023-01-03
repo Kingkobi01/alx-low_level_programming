@@ -14,12 +14,11 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i = 0;
 
-	while (i != '\n')
+	for (; s[i] != '\0'; i++)
 	{
 
 		if (strchr(accept, s[i]) == NULL)
 			return (i);
-		i++;
 	}
-	return (strlen(s));
+	return (i);
 }
