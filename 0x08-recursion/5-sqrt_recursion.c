@@ -1,22 +1,32 @@
+int _sqrt(int n, int i);
+
 /**
- * _sqrt_recursion - calculates the square root of a number using recursion
- * @n: the number to find the square root of
+ * _sqrt_recursion - Returns the natural square root of a number
+ * @n: number to calculate the natural square root
  *
- * Return: the square root of n, or -1 if n is not a perfect square
+ * Return: the natural square root
  */
 int _sqrt_recursion(int n)
 {
-	int i;
-	if (n < 0)
-		return -1;
-	if (n == 0 || n == 1)
-		return n;
+	return (_sqrt(n, 1));
+}
 
-	for (i = 1; i <= n / 2; i++)
-	{
-		if (i * i == n)
-			return i;
-	}
+/**
+ * _sqrt - Calculates natural square root
+ * @n: number to calculate the square root
+ * @i: iterate number
+ *
+ * Return: the natural square root
+ */
+int _sqrt(int n, int i)
+{
+	int sqrt = i * i;
 
-	return -1;
+	if (sqrt > n)
+		return (-1);
+
+	if (sqrt == n)
+		return (i);
+
+	return (_sqrt(n, i + 1));
 }
