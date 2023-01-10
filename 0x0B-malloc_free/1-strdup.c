@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _strdup - Returns a pointer
@@ -14,7 +16,7 @@ char *_strdup(char *str)
 	unsigned int i, size;
 	char *ptr;
 
-	size = sizeof(str);
+	size = sizeof(*str) * strlen(str);
 
 	ptr = malloc(size);
 
