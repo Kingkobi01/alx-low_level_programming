@@ -1,21 +1,21 @@
 #include <stdlib.h>
 
+/**
+ * alloc_grid - ...
+ * @width : ...
+ * @height : ...
+ * Return: ...
+ */
 int **alloc_grid(int width, int height)
 {
 	int **grid;
 	int i, j;
 
 	if (width <= 0 || height <= 0)
-	{
-		return NULL;
-	}
-
+		return (NULL);
 	grid = malloc(height * sizeof(int *));
 	if (!grid)
-	{
-		return NULL;
-	}
-
+		return (NULL);
 	i = 0;
 	while (i < height)
 	{
@@ -29,11 +29,10 @@ int **alloc_grid(int width, int height)
 				j++;
 			}
 			free(grid);
-			return NULL;
+			return (NULL);
 		}
 		i++;
 	}
-
 	i = 0;
 	while (i < height)
 	{
@@ -46,5 +45,5 @@ int **alloc_grid(int width, int height)
 		i++;
 	}
 
-	return grid;
+	return (grid);
 }
