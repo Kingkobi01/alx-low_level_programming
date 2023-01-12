@@ -16,9 +16,15 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb > (UINT_MAX / size))
 		return (NULL);
 
+	if (nmemb == 0 || size == 0)
+		ptr = malloc(1);
+
 	ptr = malloc(nmemb * size);
 
-	if (!ptr || nmemb == 0 || size == 0)
+	if (!ptr)
+		return (NULL);
+
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
 	memset(ptr, 0, nmemb * size);
