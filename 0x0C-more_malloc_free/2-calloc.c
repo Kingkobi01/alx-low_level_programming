@@ -16,7 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	ptr = malloc(nmemb * size);
 
 	if (nmemb > (UINT_MAX / size))
-		return NULL;
+		return (NULL);
 
 	if (!ptr || nmemb == 0 || size == 0)
 		return (NULL);
