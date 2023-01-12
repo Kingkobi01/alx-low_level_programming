@@ -15,7 +15,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		s1 = "";
-
 	if (s2 == NULL)
 		s2 = "";
 
@@ -35,24 +34,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ptr = strcpy(ptr, s1);
 		return (ptr);
 	}
-
-	if (!ptr)
+	if (ptr == NULL)
 		return (NULL);
-
 	i = 0;
 	while (i < l)
 	{
 		ptr[i] = s1[i];
 		i++;
 	}
-
 	while (i < (l + n))
 	{
 		ptr[i] = s2[i - l];
 		i++;
 	}
-
 	ptr[i] = '\0';
-
 	return (ptr);
 }
