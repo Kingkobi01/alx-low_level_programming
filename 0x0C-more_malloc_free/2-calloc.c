@@ -15,12 +15,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 	{
-		ptr = malloc(1);
-
-		if (!ptr)
-			return (NULL);
-
-		memset(ptr, 0, 1);
+		ptr = calloc(1, 1);
 		return (ptr);
 	}
 
