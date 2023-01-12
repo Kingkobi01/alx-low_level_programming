@@ -14,10 +14,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	void *ptr;
 
 	if (nmemb == 0 || size == 0)
-	{
-		ptr = calloc(1, 1);
-		return (ptr);
-	}
+		return (NULL);
 
 	if (nmemb > (UINT_MAX / size))
 		return (NULL);
