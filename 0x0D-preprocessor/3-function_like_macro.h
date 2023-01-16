@@ -1,4 +1,4 @@
-#ifndef 3-FUNCTION_LIKE_MACRO_H
-#define 3-FUNCTION_LIKE_MACRO_H
-#define ABS(X) ((X < 0)? (-1 * X): (X));
-#endif;
+#ifndef __COMMON_H__
+#define __COMMON_H__
+#define ABS(X) ((X < 0) ? (-1 * X) : (X))
+#endif
