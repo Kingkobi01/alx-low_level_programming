@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * print_name - ...
@@ -9,5 +10,6 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	if (strcmp(name, "") != 0)
+		f(name);
 }
