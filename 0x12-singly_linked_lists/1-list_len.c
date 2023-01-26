@@ -3,8 +3,8 @@
 /**
  * list_len - Returns the number of elements
  *			in a linked list_t list
- @h : list_ list
- Return: number of eleements
+ * @h : list_t list
+ * Return: number of eleements
  */
 
 size_t list_len(const list_t *h)
