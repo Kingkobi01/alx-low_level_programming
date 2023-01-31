@@ -15,7 +15,6 @@ size_t listint_len(const listint_t *h)
 
 	if (h != NULL)
 	{
-
 		while (h)
 		{
 			count += 1;
@@ -25,5 +24,4 @@ size_t listint_len(const listint_t *h)
 
 		return (count);
 	}
-	return (-1);
 }
