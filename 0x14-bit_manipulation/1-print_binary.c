@@ -1,4 +1,5 @@
 #include "main.h"
+void _divide(unsigned long int n);
 /**
  * print_binary - Prints the binary representation of a number
  * @n : number
@@ -7,28 +8,28 @@
 
 void print_binary(unsigned long int n)
 {
-	int rem, flag;
-
-	flag = 0;
 
 	if (n == 0)
 	{
 		_putchar('0');
-		_putchar('\n');
 		return;
 	}
 
-	while (n > 0)
-	{
-		rem = n - ((n >> 1) << 1);
-		if (rem == 1)
-			flag = 1;
+	_divide(n);
+}
 
-		if (flag == 1)
-			_putchar(rem + '0');
+/**
+ * _divide - ...
+ * @n: ...
+ *
+ * Return: ...
+ */
+void _divide(unsigned long int n)
+{
+	if (n < 1)
+		return;
 
-		n >>= 1;
-	}
+	_divide(n >> 1);
 
-	_putchar('\n');
+	_putchar((n & 1) ? '1' : '0');
 }
