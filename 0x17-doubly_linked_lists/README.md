@@ -1,1 +1,1 @@
-# 0x17. C - Doubly linked lists
+# Solution to tasks on doubly linked list
