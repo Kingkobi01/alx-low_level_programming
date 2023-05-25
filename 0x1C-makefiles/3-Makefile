@@ -1,0 +1,21 @@
+
+CC=gcc
+SRC=school.c main.c
+OBJ=$(SRC:.c=.o)
+NAME=school
+RM=rm -f
+EMAC_TMP_FILES = .*.swp .*.swo .swn
+VIM_TMP_FILES = *~ \#*\#
+
+all:$(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+clean:$(EMAC_TMP_FILES) $(VIM_TMP_FILES)
+	$(RM) $(EMAC_TMP_FILES) $(VIM_TMP_FILES)
+
+oclean:$(OBJ)
+	$(RM) $(OBJ)
+
+fclean:oclean clean
+
+re:oclean all
